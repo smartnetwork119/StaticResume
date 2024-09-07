@@ -120,11 +120,11 @@ h2 {
 
 @media (max-width: 480px) {
     .name {
-        font-size: 1.5em; /* Adjust name size on very small screens */
+        font-size: 1.3em; /* Adjust name size on very small screens */
     }
 
     .contact {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 }
 
