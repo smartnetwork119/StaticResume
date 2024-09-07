@@ -91,3 +91,40 @@ h2 {
     margin: 5px 5px 0 0;
     font-size: 0.9em;
 }
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    .resume-wrapper {
+        flex-direction: row; /* Side-by-side layout for medium to large screens */
+    }
+
+    .sidebar {
+        flex: 0 0 30%; /* Sidebar takes 30% of the width */
+        text-align: left;
+    }
+
+    .content {
+        flex: 1; /* Content takes the remaining width */
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .skill-badge {
+        font-size: 0.8em; /* Smaller text size for badges on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.5em; /* Adjust name size on very small screens */
+    }
+
+    .contact {
+        font-size: 0.9em;
+    }
+}
+
