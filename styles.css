@@ -112,7 +112,10 @@ h2 {
     .content {
         padding: 10px;
     }
-
+     .sidebar {
+        flex: 0 0 30%; /* Sidebar takes 30% of the width */
+        text-align: left;
+    }
     .skill-badge {
         font-size: 0.8em; /* Smaller text size for badges on small screens */
     }
@@ -120,9 +123,12 @@ h2 {
 
 @media (max-width: 480px) {
     .name {
-        font-size: 1.2em; /* Adjust name size on very small screens */
+        font-size: 1.1em; /* Adjust name size on very small screens */
     }
-
+    .sidebar {
+        flex: 0 0 30%; /* Sidebar takes 30% of the width */
+        text-align: left;
+    }
     .contact {
         font-size: 0.6em;
     }
