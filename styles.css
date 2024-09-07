@@ -123,7 +123,7 @@ h2 {
 
 @media (max-width: 480px) {
     .name {
-        font-size: 0.8em; /* Adjust name size on very small screens */
+        font-size: 0.7em; /* Adjust name size on very small screens */
     }
     .sidebar {
         flex: 0 0 30%; /* Sidebar takes 30% of the width */
