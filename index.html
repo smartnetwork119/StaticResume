@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 1 Static Interactive Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1 class="name">S. M. Shan-e-Ali</h1>
+            <p class="contact">smsali100@gmail.com</p>
+            <p class="contact">+92 3453089778</p>
+            <button id="toggle-skills-btn">Toggle Skills</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Education -->
+            <section id="education">
+                <h2>Education</h2>
+                <div class="section-content">
+                    <div class="education-item">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p>SM Science College (2005 - 2007)</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>High School Diploma</h3>
+                        <p>Aptech North Nazimabad, Karachi (2014 - 2017)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="section-content">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">TypeScript</span>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">Nextjs</span>
+                    <span class="skill-badge">Node.js</span>
+                </div>
+            </section>
+
+            <!-- Work Experience -->
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <div class="section-content">
+                    <div class="work-item">
+                        <h3>Software Developer Intern</h3>
+                        <p>SMSALI Company (2022 - 2023)</p>
+                        <p>Worked on developing internal tools using Nextjs and TypeScript.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Freelance Web Developer</h3>
+                        <p>(2024 - Present)</p>
+                        <p>Developed responsive websites for various clients using smsali web technologies.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
