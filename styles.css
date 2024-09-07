@@ -132,5 +132,10 @@ h2 {
     .contact {
         font-size: 0.6em;
     }
+
+    .profile-pic {
+        width: 90px;
+        
+    }
 }
 
